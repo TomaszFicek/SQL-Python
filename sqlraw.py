@@ -52,3 +52,4 @@ klasa_id = cur.fetchone()[0]
 cur.execute(""" UPDATE uczen SET klasa_id = ? WHERE id = ? """, (klasa_id, 2))
 czytaj_dane()
 cur.close()
+
